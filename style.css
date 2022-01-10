@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0;
+}
+
+body {
+  background-color: #f7e4d4;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+}
+@media (max-width: 520px) {
+  h1 {
+    text-align: left;
+    font-size: 36px;
+  }
+
+  input[type="text"] {
+    width: 100% - 40px;
+  }
+  textarea {
+    width: 100% - 40px;
+  }
+  input[type="text"] {
+    width: 100% - 40px;
+  }
+}
+
+input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  max-width: 480px;
+  height: 64px;
+  color: #467745;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+textarea {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  max-width: 480px;
+  height: 120px;
+  color: #467745;
+  background-color: white;
+}
+
+form div {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="checkbox"] {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+a {
+  text-decoration: underline;
+}
+
+button {
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  text-align: center;
+  padding: ;
+  max-width: 280px;
+  height: 80px;
+  background-color: #467745;
+  color: #f7e4d4;
+  border-radius: 40px;
+  padding: 40px;
+  letter-spacing: 0.2em;
+}
